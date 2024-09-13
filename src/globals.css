@@ -1,0 +1,27 @@
+:root {
+  background: #1A222A;
+
+  color: #eceff4;
+  font-family: 'Tiresias Infofont';
+  font-size: 1.125em;
+  line-height: 1.75em;
+
+  body{
+    overflow: hidden;
+    margin: 0;
+  }
+}
+
+@font-face {
+  font-family: 'Tiresias Infofont';
+  src: url('/fonts/tiresias_infofont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tiresias Infofont';
+  src: url('/fonts/tiresias_infofont_italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
