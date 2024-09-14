@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
-import styles from "./index.module.css";
-import ButtonForm from "../Buttons/ButtonForm";
-import { FaUser } from "react-icons/fa";
+import { NavLink } from 'react-router-dom'
+import styles from './index.module.css'
+import ButtonForm from '../Buttons/ButtonForm'
+import { FaUser } from 'react-icons/fa'
 
 export default function Layout({ children }) {
   return (
@@ -18,7 +18,7 @@ export default function Layout({ children }) {
                 <ButtonForm buttonClass={styles.button} formType={false}>
                   <p>Entrar</p>
                   <span>
-                    <FaUser className="icon"/>
+                    <FaUser className={styles.icon}/>
                   </span>
                 </ButtonForm>
               </div>
