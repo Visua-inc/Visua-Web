@@ -1,0 +1,16 @@
+button{
+    border: none;
+    margin: 0;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1.25em;
+    background: #1c7396;
+    border-radius: 1em;
+    color: #eceff4;
+    cursor: pointer;
+}

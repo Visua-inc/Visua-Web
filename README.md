@@ -39,5 +39,3 @@ Para instalar e configurar o site localmente, siga estas etapas:
 4. **Execute o Servidor de Desenvolvimento:**
    ```bash
    npm run dev
-
-   aaaaa

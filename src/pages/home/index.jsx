@@ -4,8 +4,7 @@ import styles from './index.module.css'
 export default function Home() {
   return (
     <Layout>
-      <div>
-        <div>
+        <div className={styles.ok}>
           <div>
             <h2>Escaneie objetos com o Visua</h2>
           </div>
@@ -16,7 +15,6 @@ export default function Home() {
           <p>Explore o mundo ao seu redor com confiança, graças à tecnologia do
           Visua, tornando a informação visual acessível à todos.</p>
         </div>
-      </div>
     </Layout>
   )
 }
