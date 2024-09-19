@@ -1,7 +1,7 @@
-import Button from "../../components/Buttons/Button";
-import ButtonForm from "../../components/Buttons/ButtonForm";
-import Layout from "../../components/layout";
-import styles from "./index.module.css";
+import Button from '../../components/Buttons/Button'
+import ButtonForm from '../../components/Buttons/ButtonForm'
+import Layout from '../../components/layout'
+import styles from './index.module.css'
 
 export default function Home() {
   return (
@@ -20,8 +20,8 @@ export default function Home() {
             Visua, tornando a informação visual acessível à todos.
           </p>
           <div className={styles.buttonDiv}>
-            <ButtonForm>Criar Conta</ButtonForm>
-            <Button>Saiba Mais</Button>
+            <ButtonForm buttonClass={styles.hButton}>Criar Conta</ButtonForm>
+            <Button buttonClass={styles.hButton}>Saiba Mais</Button>
           </div>
         </div>
       </section>

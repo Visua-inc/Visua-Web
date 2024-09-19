@@ -13,7 +13,7 @@ export default function Layout({ children }) {
             <div className={styles.navlinks}>
               <NavLink to="/#">Pagina Inicial</NavLink>
               <NavLink to="/#">Download</NavLink>
-              <NavLink to="/#">Historico</NavLink>
+              <NavLink to="/History">Historico</NavLink>
               <div>
                 <ButtonForm buttonClass={styles.button} formType={false}>
                   <p>Entrar</p>
