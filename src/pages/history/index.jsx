@@ -2,7 +2,7 @@ import Button from '../../components/Buttons/Button'
 import Layout from '../../components/layout'
 import styles from './index.module.css'
 
-export default function History () {
+export default function History() {
   return (
     <Layout>
       <section className={styles.history}>

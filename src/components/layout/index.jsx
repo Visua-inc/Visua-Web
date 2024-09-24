@@ -3,7 +3,7 @@ import styles from './index.module.css'
 import ButtonForm from '../Buttons/ButtonForm'
 import { FaUser } from 'react-icons/fa'
 
-export default function Layout ({ children }) {
+export default function Layout({ children }) {
   return (
     <div className={styles.Layout}>
       <header className={styles.header}>
