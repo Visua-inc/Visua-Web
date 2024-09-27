@@ -20,7 +20,9 @@ export default function Home() {
             Visua, tornando a informação visual acessível à todos.
           </p>
           <div className={styles.buttonDiv}>
-            <ButtonForm buttonClass={styles.hButton}>Criar Conta</ButtonForm>
+            <ButtonForm buttonClass={styles.hButton} formType='False'>
+              Criar Conta
+            </ButtonForm>
             <Button buttonClass={styles.hButton}>Saiba Mais</Button>
           </div>
         </div>

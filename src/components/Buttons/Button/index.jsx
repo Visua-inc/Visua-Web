@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import styles from './index.module.css'
 
-export default function Button ({ children, buttonClass, ...props }) {
+export default function Button({ children, buttonClass, ...props }) {
   return (
     <button
       // className={styles.button}

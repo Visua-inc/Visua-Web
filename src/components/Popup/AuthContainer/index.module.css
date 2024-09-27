@@ -1,0 +1,17 @@
+.authContainer {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    background-color: rgba(23, 27, 32, 0.5); /* Transparência */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .authModal {
+    background-color: #171b20; /* Cor do fundo do modal */
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    
+  }

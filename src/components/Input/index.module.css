@@ -1,0 +1,38 @@
+.inputContainer {
+  position: relative;
+  margin-bottom: 2.25rem; /* Espaçamento inferior */
+}
+
+.inputIcon {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem; /* Ajuste conforme necessário */
+  transform: translateY(-50%);
+  color: #9ca3af; /* Cor do ícone (cinza) */
+  transition: left 0.3s, transform 0.3s; /* Transição suave */
+}
+
+.iconFocused {
+  left: -1.75rem; /* Ajuste quando focado */
+}
+
+.inputField {
+  padding: 0.5rem; /* Padding com espaço para o ícone */
+  border: 2px solid #1c7396; /* Ajuste a cor conforme necessário */
+  background-color: #202a32; /* Cor de fundo do input */
+  border-radius: 50px; /* Forma arredondada */
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-size: 18px;
+  color: #eceff4;
+}
+
+.inputField::placeholder {
+  padding-left: 2.5rem;
+  color: #b2c7dd;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #1c7396; /* Cor do foco */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Sombra ao focar */
+}

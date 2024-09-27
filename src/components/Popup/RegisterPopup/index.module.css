@@ -1,0 +1,55 @@
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button {
+  width: 100%;
+  margin-bottom: 0.75rem;
+  background-color: #1c7396;
+  /* Ajuste conforme necessário */
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50px;
+  /* Forma arredondada */
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #1c7396;
+  /* Hover effect */
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: 1px solid #6f7b90;
+  border-radius: 9999px;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #b2c7dd;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.closeButton:hover {
+  color: #eceff4;
+  border-color: #eceff4;
+}
