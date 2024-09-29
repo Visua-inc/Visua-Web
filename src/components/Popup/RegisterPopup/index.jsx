@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom'
 import { Mail, User, Lock, X } from 'lucide-react'
 import { useState } from 'react'
-import styles from './index.module.css' // Importando CSS Module
+import styles from './index.module.css'
 import Input from '../../Input'
 import Button from '../../Buttons/Button'
 

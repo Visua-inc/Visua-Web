@@ -10,11 +10,9 @@
    width: 100%;
    margin-bottom: 0.75rem;
    background-color: #1c7396;
-   /* Ajuste conforme necessário */
    color: white;
    padding: 0.5rem;
    border-radius: 50px;
-   /* Forma arredondada */
    display: flex;
    justify-content: center;
  }
@@ -30,7 +28,6 @@
 
  .link:hover {
    color: #1c7396;
-   /* Hover effect */
  }
 
  .closeButton {
