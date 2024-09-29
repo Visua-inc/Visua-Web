@@ -1,4 +1,7 @@
 .history {
+  width: 100%;
+  min-height: 74vh;
+
   display: flex;
   flex-direction: column;
   

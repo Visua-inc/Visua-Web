@@ -13,7 +13,7 @@ export default function Layout({ children }) {
           <nav>
             <div className={styles.navlinks}>
               <NavLink to='/#'>Pagina Inicial</NavLink>
-              <NavLink to='/#'>Download</NavLink>
+              <NavLink to='/Download'>Download</NavLink>
               <NavLink to='/History'>Historico</NavLink>
               <div>
                 <ButtonForm buttonClass={styles.button} formType={false}>
@@ -28,6 +28,14 @@ export default function Layout({ children }) {
         </div>
       </header>
       {children}
+      <footer className={styles.footer}>
+        <p>© 2024 Visua. Todos os direitos reservados.</p>
+        <p>
+          <a href='https://github.com/seu-repositorio' target='_blank' rel='noopener noreferrer'>
+            Acesse o Portfólio
+          </a>
+        </p>
+      </footer>
     </div>
   )
 }

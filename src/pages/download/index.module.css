@@ -1,0 +1,111 @@
+.download {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 74vh;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem */
+    flex: 1; /* Permite que a imagem ocupe espaço */
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    align-items: center;
+    flex: 1; /* Remove a largura mínima */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.p1 {
+    font-size: 2.1em;
+}
+
+.b {
+    border: none;
+    margin: 0;
+    width: 13em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 17px;
+    background: #000;
+    border-radius: 1em;
+    color: #eceff4;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.b:hover {
+    background: #1c7396; /* Cor de fundo ao passar o mouse */
+}
+
+
+.icona {
+    font-size: 2em;
+}
+
+.icongp {
+    font-size: 1.5em;
+}
+
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .download {
+        height: 68.9vh;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .imgContainer {
+        margin-top: 2.5em;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    .botao {
+        gap: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .download {
+        height: 70.9vh;
+    }
+
+    .imgContainer {
+        margin-top: 3.7em;
+    }
+
+    .p1 {
+        font-size: 1.5em; /* Tamanho menor para texto */
+    }
+
+    .b {
+        font-size: 16px; /* Ajusta o tamanho da fonte */
+    }
+}
