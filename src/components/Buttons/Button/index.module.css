@@ -14,4 +14,9 @@ button{
     border-radius: 1em;
     color: #eceff4;
     cursor: pointer;
+    transition: background 0.3s ease; 
+}
+
+.button:hover {
+    background: #155b75; 
 }
