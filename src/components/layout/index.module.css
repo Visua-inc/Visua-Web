@@ -1,7 +1,6 @@
 .layout {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
 }
@@ -14,16 +13,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  border-width: 0 0 1px 0;
-  border-style: solid;
-  border-color: #23384d;
+  border-bottom: 1px solid #23384d;
 
   .SeparatorHeader {
     width: 100%;
-    padding-left: 1.5em;
-    padding-top: 1.5em;
-    padding-right: 1.5em;
+    padding: 1.5em;
 
     display: flex;
     justify-content: space-between;
@@ -42,8 +36,6 @@
       .button {
         max-height: 1.75em;
 
-
-
         span {
           background: #fff;
           color: #1c7396;
@@ -56,13 +48,70 @@
         }
 
         p {
-          margin-right: .5em;
+          margin-right: 0.5em;
           font-weight: inherit;
         }
 
         .icon {
           width: 1.5em;
           height: 1.5em;
+        }
+      }
+    }
+
+    .mobileNav {
+      display: none;
+      /* Inicialmente escondido */
+
+      .mobileButton {
+        position: fixed;
+        right: 25px;
+        top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #eceff4;
+        color: #1a222a;
+        padding: 0.75em;
+        border-radius: 50px;
+        z-index: 1;
+      }
+
+      .sideBar {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background-color: #171b20;
+
+        .sideBarWidth {
+          height: 9em;
+          width: 100%;
+          display: flex;
+        }
+
+        .sideBarUl {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: auto;
+          width: 100%;
+          gap: 1.5em;
+          padding: 0;
+
+          .sideBarLi {
+            list-style: none;
+
+            .sideBarLink {
+              color: #eceff4;
+              text-decoration: none;
+            }
+
+            .sideBarLink:hover {
+              color: #b2c7dd;
+            }
+          }
         }
       }
     }
@@ -88,20 +137,30 @@
 }
 
 @media (max-width: 768px) {
-  /* .header {
-    flex-direction: column;
-    padding: 1em;
-  }
+  .header {
+    
+    .SeparatorHeader {
 
-  .navlinks {
-    flex-direction: column;
-    gap: 1em;
-  } */
+      img{
+        width: 100px;
+        height: 100px;
+      }
 
-  .footer {
-    flex-direction: column;
-    gap: 0;
-    padding: .5em;
+      .navlinks {
+        display: none;
+      }
+
+      .mobileNav {
+        display: flex;
+        justify-content: center;
+      }
+
+      .footer {
+        flex-direction: column;
+        gap: 0;
+        padding: .5em;
+      }
+    }
   }
 }
 

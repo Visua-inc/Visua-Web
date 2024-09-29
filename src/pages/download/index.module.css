@@ -71,10 +71,6 @@
 }
 
 @media (max-width: 768px) {
-    .download {
-        height: 68.9vh;
-    }
-
     .container {
         flex-direction: column;
     }
