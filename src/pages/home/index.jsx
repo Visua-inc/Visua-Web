@@ -23,12 +23,14 @@ export default function Home() {
             <ButtonForm buttonClass={styles.hButton} formType='False'>
               Criar Conta
             </ButtonForm>
-            <Button buttonClass={styles.hButton}>Saiba Mais</Button>
+            <a href='#about'>
+              <Button buttonClass={styles.hButton}>Saiba Mais</Button>
+            </a>
           </div>
         </div>
       </section>
 
-      <section className={`${styles.section} ${styles.about}`}>
+      <section className={`${styles.section} ${styles.about}`} id='about'>
         <div className={styles.content}>
           <h2 className={styles.title}>Sobre o Projeto</h2>
           <p className={styles.text}>
