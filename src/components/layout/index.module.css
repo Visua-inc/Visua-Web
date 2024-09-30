@@ -1,8 +1,9 @@
-.layout {
-  width: 100vw;
-  height: 100vh;
+.Layout {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .header {
