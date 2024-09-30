@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { NavLink } from 'react-router-dom'
 import styles from './index.module.css'
 import ButtonForm from '../Buttons/ButtonForm'
@@ -23,7 +22,9 @@ export default function Layout({ children }) {
     <div className={styles.Layout}>
       <header className={styles.header}>
         <div className={styles.SeparatorHeader}>
-          <img src='/Logo.svg' alt='Visua Logo' width={100} height={100} />
+          <NavLink to='/#'>
+            <img src='/Logo.svg' alt='Visua Logo' width={100} height={100} />
+          </NavLink>
 
           <nav>
             <div className={styles.navlinks}>

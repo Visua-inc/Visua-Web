@@ -73,6 +73,10 @@
     display: flex;
     gap: 2em;
     justify-content: center;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .hButton {

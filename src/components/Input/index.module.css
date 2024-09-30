@@ -33,6 +33,6 @@
 
 .inputField:focus {
   outline: none;
-
-  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  border: 1.5px solid #1c7396;
+  box-shadow: 0 0 0 1.5px rgba(59, 130, 246, 0.5);
 }
