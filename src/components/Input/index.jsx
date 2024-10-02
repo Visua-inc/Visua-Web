@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styles from './index.module.css' 
 
-/* eslint-disable react/prop-types */
+ 
 export default function Input({
   type,
   placeholder,

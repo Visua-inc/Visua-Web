@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom'
 import { Mail, User, Lock, X } from 'lucide-react'
 import { useState } from 'react'

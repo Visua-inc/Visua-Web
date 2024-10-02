@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useState } from 'react'
 import { Mail, Lock, X } from 'lucide-react'
 import Button from '../../Buttons/Button'
