@@ -110,7 +110,7 @@ export default function Layout({ children }) {
         <p>© 2024 Visua. Todos os direitos reservados.</p>
         <p>
           <a
-            href='https://github.com/seu-repositorio'
+            href='https://glowing-meringue-3f4688.netlify.app'
             target='_blank'
             rel='noopener noreferrer'
           >

@@ -25,7 +25,7 @@ export default function History() {
                 const [loading, setLoading] = useState(true)
                 return (
                   <Link
-                    to={`/item/${item.id}`} 
+                    to={`/item/${item.id}`}
                     key={item.id}
                     className={styles.entry}
                   >
@@ -33,7 +33,7 @@ export default function History() {
                       <div className={styles.loadingContainer}>
                         <Loading />
                       </div>
-                    )}{' '}
+                    )}
                     <img
                       className={styles.preview}
                       src={item.imagem}
