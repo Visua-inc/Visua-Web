@@ -10,9 +10,12 @@ import {
   SideBarContentUl,
 } from '../../Animations/Motion/Variants'
 import { useState } from 'react'
+import AuthContainer from '../Popup/AuthContainer'
 
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false)
+  const [isAuthOpen, setAuthOpen] = useState(false)
+
 
   const toggleNavBar = () => {
     setIsOpen(!isOpen)
@@ -93,7 +96,7 @@ export default function Layout({ children }) {
                   variants={SideBarContentLi}
                   className={styles.sideBarLi}
                 >
-                  <ButtonForm buttonClass={styles.button} formType={false}>
+                  <ButtonForm onClick={() => setAuthOpen(true)} buttonClass={styles.button} formType={false}>
                     <p>Entrar</p>
                     <span>
                       <FaUser className={styles.icon} />
@@ -105,6 +108,7 @@ export default function Layout({ children }) {
           </nav>
         </div>
       </header>
+      {isAuthOpen &&  <AuthContainer formType={false}  onClose={() => setAuthOpen(false)} />}
       {children}
       <footer className={styles.footer}>
         <p>© 2024 Visua. Todos os direitos reservados.</p>
