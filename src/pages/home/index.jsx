@@ -10,14 +10,18 @@ export default function Home() {
         <div className={styles.content}>
           <h2 className={styles.title}>Escaneie objetos com o Visua</h2>
           <p className={styles.text}>
-            Visua é uma aplicação para pessoas com deficiência visual, onde você
-            pode escanear objetos ao seu redor ou escanear o código de barras
-            para assim receber descrições detalhadas em áudio e em texto,
-            permitindo uma experiência mais inclusiva e independente.
+            Visua é uma inovadora aplicação projetada para promover a inclusão
+            de pessoas com deficiência visual. Com tecnologia de ponta, o Visua
+            permite que os usuários escaneiem objetos e códigos de barras em seu
+            ambiente, recebendo descrições detalhadas em áudio e texto. Essa
+            funcionalidade proporciona uma experiência rica e autônoma,
+            empoderando os usuários a interagir com o mundo ao seu redor de
+            forma mais independente.
           </p>
           <p className={styles.text}>
-            Explore o mundo ao seu redor com confiança, graças à tecnologia do
-            Visua, tornando a informação visual acessível à todos.
+            Descubra e explore seu ambiente com confiança. A tecnologia do Visua
+            transforma a informação visual em conhecimento acessível para todos,
+            garantindo que cada interação seja significativa e enriquecedora.
           </p>
           <div className={styles.buttonDiv}>
             <ButtonForm buttonClass={styles.hButton} formType='False'>
@@ -34,30 +38,33 @@ export default function Home() {
         <div className={styles.content}>
           <h2 className={styles.title}>Sobre o Projeto</h2>
           <p className={styles.text}>
-            Um projeto feito para a cadeira de Desing Centrado no Ser Humano,
-            com supervisão e auxilio do professor Savio Silva de Almeida, a
-            ideia de criar um protótipo de um aplicativo voltado a pessoa com
-            algum tipo de deficiência, e ai tivemos a ideia de criar o Visua.
+            Visua é um projeto desenvolvido como parte da disciplina de Design
+            Centrado no Ser Humano, sob a supervisão do professor Savio Silva de
+            Almeida. A iniciativa nasceu da vontade de criar um protótipo de
+            aplicativo voltado para pessoas com deficiência, resultando na
+            concepção do Visua.
           </p>
           <p className={styles.text}>
-            Visua Inicialmente é um projeto feito para pessoas com deficiência
-            visual, onde ele tem a missão de ajudar pessoas com limitação,
-            escaneando objetos e código de barras, assim trazendo uma analise do
-            que é o objeto, ou, caso tenha sido escaneado com o código de barras
-            procurar num API os dados daquele produto e assim descrever de forma
-            mais detalhada.
+            Este aplicativo é especialmente projetado para atender pessoas com
+            deficiência visual, com a missão de promover autonomia e inclusão. O
+            Visua permite que os usuários escaneiem objetos e códigos de barras,
+            fornecendo análises detalhadas sobre os itens identificados. Ao
+            escanear um código de barras, o aplicativo consulta uma API para
+            recuperar informações relevantes do produto, apresentando-as de
+            forma clara e acessível.
           </p>
           <p className={styles.text}>
-            O visua oferece uma interface acessível e pratica tanto para pessoas
-            com deficiência quanto a pessoa que forem usar o aplicativo para uso
-            próprio no dia à dia.
+            A interface do Visua foi elaborada para ser prática e intuitiva,
+            beneficiando tanto pessoas com deficiência quanto usuários em geral
+            em seu dia a dia.
           </p>
           <p className={styles.text}>
-            As cores forem pensadas a partir de um estudo das cores onde: O azul
-            associa a calma, tranquilidade e clareza, sendo suave aos olhos. O
-            Branco associa simplicidade e a neutralidade dando contraste aos
-            textos. O Cinza cria um aspecto de suavidade e uma leitura mais
-            confortável.
+            As escolhas de cores para a interface foram fundamentadas em um
+            estudo cromático, onde o azul representa calma, tranquilidade e
+            clareza, sendo suave para os olhos. O branco simboliza simplicidade
+            e neutralidade, criando contraste com os textos. O cinza foi
+            escolhido para proporcionar suavidade e facilitar a leitura,
+            contribuindo para uma experiência visual agradável e confortável.
           </p>
         </div>
       </section>

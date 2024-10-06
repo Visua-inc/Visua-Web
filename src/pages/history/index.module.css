@@ -31,7 +31,10 @@
   
           padding: 0.5em;
           gap: 0.3em;
-          transition: 0.2s;
+          transition: 0.1s;
+          transition: transform 0.1s, background-color 0.1s;
+          transition: transform 0.1s ease, box-shadow 0.1s ease;
+          box-shadow: 3px 3px 5px #000000f7;
   
           color: #eceff4;
           text-decoration: none;
@@ -58,8 +61,18 @@
 
       .entry:hover {
           border-color: #1c7396;
-          transition: 0.2s;
+          transition: 0.1s;
+          box-shadow: 5px 5px 15px #000000f7;
       }
+
+      .entry:hover {
+        transform: scale(0.9);
+        
+    }
+    
+    .entry:active {
+        transform: scale(0.9);
+    }
   }
 
   img {
