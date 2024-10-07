@@ -1,4 +1,4 @@
-.section{
+.section {
     width: 100%;
     min-height: 70vh;
 
@@ -7,7 +7,7 @@
 
     padding-top: 3em;
 
-    .content{
+    .content {
         width: 50%;
 
         display: flex;
@@ -16,47 +16,39 @@
         justify-content: center;
         text-align: justify;
 
-        .title{
+        .title {
+            color: #1c7396;
             margin-bottom: 1em;
-            font-size: 2em;
+            font-size: 2.2em;
             font-weight: 500;
         }
-        
-        .text{
+
+        .text {
             margin: 0.5em;
         }
 
-        .buttonDiv{
+        .buttonDiv {
             margin-top: 1em;
-        
+
             display: flex;
             gap: 2em;
             justify-content: center;
-        
+
             .hButton {
                 padding: 0.3em 1em;
                 cursor: pointer;
-            }       
+            }
 
             a {
                 text-decoration: none;
             }
-        
+
         }
 
-        @media (max-width: 480px) {
-            .title {
-                font-size: 1.2em;
-            }
 
-            .buttonDiv {
-                flex-direction: column;
-                gap: 1em;
-            }
-        }
     }
 
-    .imgDisplay{
+    .imgDisplay {
         width: 40%;
         min-height: 100%;
 
@@ -77,29 +69,66 @@
     }
 }
 
-.about{
+.about {
     padding-bottom: 2em;
+}
+
+@media (max-width: 1280px) {
+    .section {
+        .content {
+            .title {
+                font-size: 2em;
+            }
+        }
+        .imgDisplay {
+            img {
+                height: 300px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1024px) {
     .section {
-        grid-template-columns: repeat(2, 1fr);
 
         .content {
-            grid-column: 1 / -1;
+            width: 70%;
+            text-align: center;
+        }
+
+        .imgDisplay {
+            display: none;
         }
     }
 }
 
 @media (max-width: 768px) {
     .section {
-        grid-template-columns: 1fr;
 
         .content {
-            grid-column: 1;
+            width: 85%;
 
             .title {
                 font-size: 1.5em;
+            }
+
+            .text {
+                font-size: .9em;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        .content {
+            .title {
+                font-size: 1.3em;
+            }
+
+            .buttonDiv {
+                flex-direction: column;
+                gap: 1em;
             }
         }
     }
