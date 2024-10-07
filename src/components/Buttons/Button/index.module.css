@@ -14,9 +14,17 @@ button{
     border-radius: 1em;
     color: #eceff4;
     cursor: pointer;
-    transition: background 0.3s ease; 
+    transition: background 0.3s ease;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
 }
 
 .button:hover {
     background: #155b75; 
+}
+
+.button:active {
+    background: #1c7396;
+    box-shadow: 1px 1px 4px hsla(0, 0%, 0%, 1); 
+    transform: scale(0.9);
 }

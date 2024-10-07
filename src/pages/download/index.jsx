@@ -14,11 +14,11 @@ export default function Download() {
           </div>
           <div className={styles.botao}>
             <p className={styles.p1}>Baixe agora mesmo!</p>
-            <Button className={styles.b}>
+            <Button buttonClass={styles.b}>
               <FaApple className={styles.icona} />
               <p>Baixe na App Store</p>
             </Button>
-            <Button className={styles.b}>
+            <Button buttonClass={styles.b}>
               <FaGooglePlay className={styles.icongp} />
               <p>Baixe no Google Play</p>
             </Button>

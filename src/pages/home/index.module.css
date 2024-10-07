@@ -33,22 +33,7 @@
             .hButton {
                 padding: 0.3em 1em;
                 cursor: pointer;
-                transition: transform 0.1s, background-color 0.1s;
-                transition: transform 0.1s ease, box-shadow 0.1s ease;
-                box-shadow: 3px 3px 5px #000000f7 
-            }
-
-            .hButton:hover {
-                transform: scale(0.9);
-                box-shadow: 5px 5px 15px #000000f7;
-                
-            }
-            
-            .hButton:active {
-                transform: scale(0.9);
-            }
-
-           
+            }       
 
             a {
                 text-decoration: none;

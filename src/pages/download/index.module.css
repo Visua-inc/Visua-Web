@@ -44,27 +44,9 @@
     border-radius: 1em;
     color: #eceff4;
     cursor: pointer;
-    transition: background 0.1s ease;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);  
+      
     
 }
-
-.b:hover {
-    background: #1c7396;
-    box-shadow: 1px 3px 3px hsla(0, 0%, 0%, 0.9); 
-}
-
-.b:hover {
-    transform: scale(0.9);
-    
-}
-
-.b:active {
-    transform: scale(0.9);
-}
-
-
 
 .icona {
     font-size: 2em;
