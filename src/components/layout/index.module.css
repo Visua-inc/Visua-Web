@@ -124,7 +124,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  background-color: #23384d;
+  background: linear-gradient(160deg, #23384d, #1c7396) ;
   color: #eceff4;
   text-align: center;
   gap: 15px;

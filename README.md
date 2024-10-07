@@ -16,9 +16,12 @@ O **Visua** é uma aplicação que ajuda pessoas com deficiência visual a escan
 
 ## Tecnologias Utilizadas
 
+- **Vite**
 - **React**
-- **React Icons**
 - **Framer motion**
+- **React Icons**
+- **React Router**
+- **Lucide React**
 
 ## Instalação
 
