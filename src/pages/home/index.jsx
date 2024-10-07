@@ -2,19 +2,11 @@ import Button from '../../components/Buttons/Button'
 import ButtonForm from '../../components/Buttons/ButtonForm'
 import Layout from '../../components/layout'
 import styles from './index.module.css'
-import a from '../../../public/eu n aguento mais/Camera/Camera.png'
 
 export default function Home() {
   return (
     <Layout>
       <section className={styles.section}>
-        <div className={styles.mockup}>
-          <img
-            className={styles.mockupImg}
-            src='../../../public/Logo.svg'
-            alt=''
-          />
-        </div>
         <div className={styles.content}>
           <h2 className={styles.title}>Escaneie objetos com o Visua</h2>
           <p className={styles.text}>
@@ -40,9 +32,16 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <div className={styles.mockup}>
+          <img className={styles.mockupImg} src='/Logo.svg' alt='' />
+        </div>
       </section>
 
       <section className={`${styles.section} ${styles.about}`} id='about'>
+        <div className={styles.mockup}>
+          <img src='/eu n aguento mais/Camera/Camera.png' alt='' />
+          <p>Em Breve...</p>
+        </div>
         <div className={styles.content}>
           <h2 className={styles.title}>Sobre o Projeto</h2>
           <p className={styles.text}>
@@ -74,10 +73,6 @@ export default function Home() {
             escolhido para proporcionar suavidade e facilitar a leitura,
             contribuindo para uma experiência visual agradável e confortável.
           </p>
-        </div>
-        <div className={styles.mockup}>
-          <img src={a} alt='' />
-          <p>Em Breve...</p>
         </div>
       </section>
     </Layout>
