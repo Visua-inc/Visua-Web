@@ -33,8 +33,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className={styles.mockup}>
-          <img className={styles.mockupImg} src='/Logo.svg' alt='' />
+        <div className={styles.imgDisplay}>
+          <img src='/Logo.svg' alt='' />
         </div>
       </section>
 

@@ -56,7 +56,7 @@
         }
     }
 
-    .mockup{
+    .imgDisplay{
         width: 40%;
         min-height: 100%;
 
@@ -73,10 +73,6 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-        }
-
-        p{
-            font-size: 1.4em;
         }
     }
 }

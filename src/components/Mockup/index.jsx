@@ -22,7 +22,6 @@ export default function Mockup() {
   return (
     <div className={styles.mockup}>
       <img src={images[currentImg]} alt={currentImg} />
-      <p>Em Breve...</p>
     </div>
   )
 }
