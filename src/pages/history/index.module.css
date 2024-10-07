@@ -32,9 +32,9 @@
           padding: 0.5em;
           gap: 0.3em;
           transition: 0.1s;
-          transition: transform 0.1s, background-color 0.1s;
+          transition: transform 0.1s, background-color 0.3s;
           transition: transform 0.1s ease, box-shadow 0.1s ease;
-          box-shadow: 3px 3px 5px #000000f7;
+          box-shadow: 3px 3px 7px hsla(0, 0%, 0%, 0.3);
   
           color: #eceff4;
           text-decoration: none;
@@ -60,19 +60,11 @@
       }
 
       .entry:hover {
-          border-color: #1c7396;
-          transition: 0.1s;
-          box-shadow: 5px 5px 15px #000000f7;
+        border-color: #1c7396;
+        box-shadow: 1px 1px 4px hsla(0, 0%, 0%, 1); 
+        transform: scale(0.98);
       }
-
-      .entry:hover {
-        transform: scale(0.9);
-        
-    }
     
-    .entry:active {
-        transform: scale(0.9);
-    }
   }
 
   img {
