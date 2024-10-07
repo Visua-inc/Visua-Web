@@ -1,6 +1,7 @@
 import Button from '../../components/Buttons/Button'
 import ButtonForm from '../../components/Buttons/ButtonForm'
 import Layout from '../../components/layout'
+import Mockup from '../../components/Mockup'
 import styles from './index.module.css'
 
 export default function Home() {
@@ -38,10 +39,7 @@ export default function Home() {
       </section>
 
       <section className={`${styles.section} ${styles.about}`} id='about'>
-        <div className={styles.mockup}>
-          <img src='/eu n aguento mais/Camera/Camera.png' alt='' />
-          <p>Em Breve...</p>
-        </div>
+        <Mockup/>
         <div className={styles.content}>
           <h2 className={styles.title}>Sobre o Projeto</h2>
           <p className={styles.text}>
