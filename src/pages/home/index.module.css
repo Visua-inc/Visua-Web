@@ -37,6 +37,7 @@
             .hButton {
                 padding: 0.3em 1em;
                 cursor: pointer;
+                z-index: 0;
             }
 
             a {

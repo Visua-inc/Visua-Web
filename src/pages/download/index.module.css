@@ -1,6 +1,9 @@
 .download {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .container {
@@ -79,13 +82,11 @@
 
     .botao {
         gap: 1em;
+        padding: 1em;
     }
 }
 
 @media (max-width: 480px) {
-    .download {
-        height: 70.9vh;
-    }
 
     .imgContainer {
         margin-top: 3.7em;
